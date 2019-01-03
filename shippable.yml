@@ -31,7 +31,7 @@ build:
     - gcc --version
     - pip --version
    # - pip show boto #2.46.1
-    - pip show boto3
+   # - pip show boto3
     - pip show Shade
     - pip show apache-libcloud #2.0.0
     - pip show azure
