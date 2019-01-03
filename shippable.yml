@@ -32,23 +32,21 @@ build:
     - pip --version
    # - pip show boto #2.46.1
    # - pip show boto3
-    - pip show Shade
+   ####### - pip show Shade
     - pip show apache-libcloud #2.0.0
     - pip show azure
-    - pip show dopy
+   ##### - pip show dopy
     - pip show virtualenv
-    - pip3.6 --version
-    - pip show pyopenssl 
+    ######- pip3.6 --version
+    #####- pip show pyopenssl 
     - yumdb info kernel-devel
     - yum provides \*/libgcc_s.so.1 | grep libgcc
     - yarn --version
     - vim --version
     - npm --version
-    - make --version
     - curl --version
     - wget --version
     - nano --version
-    - gettext --version
     - docker --version
     - docker ps
     - docker images
