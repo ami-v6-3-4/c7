@@ -13,7 +13,7 @@ build:
     - python --version
     - node --version
     - javac -version
-   # - ruby -V
+    - ruby -V
     - source /usr/local/rvm/scripts/rvm    
     - doctl version #1.7.0
     - ansible --version #2.3.0
