@@ -11,18 +11,50 @@ build:
     
   ci:
     - python --version
-    - docker ps
-    - docker images
     - node --version
     - javac -version
-    - source /usr/local/rvm/scripts/rvm
     - ruby --version
-    - gcloud version
-    - aws --version
-    - packer.io --version
-    - jq --version
-    - kubectl version --client
+    - source /usr/local/rvm/scripts/rvm    
+    - doctl version #1.7.0
+    - ansible --version #2.3.0
+    - gcloud version #189.0.0
+    - aws --version #1.14.41
+    - packer.io --version #1.2.0
+    - jq --version #1.7.0
+    - kubectl version --client #1.8.8
+    - terraform --version #0.11.3
+    - apt search azure-cli
+    - az --version #2.0.27
+    - jfrog --version #1.7.0
+    - git --version
+    - git lfs version
+    - zip -v
+    - unzip -v
+    - sudo --version
+    - gcc --version
+    - pip --version
+    - pip show boto #2.46.1
+    - pip show boto3
+    - pip show Shade
+    - pip show apache-libcloud #2.0.0
+    - pip show azure
+    - pip show dopy
+    - pip show virtualenv
+    - pip3.6 --version
+    - pip show pyopenssl 
+    - yumdb info kernel-devel
+    - yum provides \*/libgcc_s.so.1 | grep libgcc
+    - yarn --version
+    - vim --version
+    - npm --version
+    - make --version
+    - curl --version
+    - wget --version
+    - nano --version
+    - gettext --version
     - docker --version
+    - docker ps
+    - docker images
     - docker pull shippabledocker/sample_node_pvt:ecr
     - EXPECTED_DOCKER_VERSION="17.06.0-ce"
     - |
