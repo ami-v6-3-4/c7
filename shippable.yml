@@ -6,7 +6,7 @@ runtime:
 build:
   pre_ci_boot:
     image_name: drydock/c7
-    image_tag: master
+    image_tag: v6.3.4
     pull: true
     
   ci:
@@ -24,7 +24,7 @@ build:
     - kubectl version --client
     - docker --version
     - docker pull shippabledocker/sample_node_pvt:ecr
-    - EXPECTED_DOCKER_VERSION="18.03.1-ce"
+    - EXPECTED_DOCKER_VERSION="17.06.0-ce"
     - |
       [ $(docker version --format {{.Server.Version}}) == "$EXPECTED_DOCKER_VERSION" ]
     
