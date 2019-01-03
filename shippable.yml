@@ -27,8 +27,6 @@ build:
     - jfrog --version #1.7.0
     - git --version
     - git lfs version
-    - zip -v
-    - unzip -v
     - sudo --version
     - gcc --version
     - pip --version
