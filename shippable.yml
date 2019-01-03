@@ -23,7 +23,6 @@ build:
     - jq --version #1.7.0
     - kubectl version --client #1.8.8
     - terraform --version #0.11.3
-    - apt search azure-cli
     - az --version #2.0.27
     - jfrog --version #1.7.0
     - git --version
